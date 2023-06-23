@@ -8,7 +8,7 @@ The hand-crafted feature vectors obtained are used to train two types of models:
 1. ML-based: Logistic Regression, SVMs, Random Forest, eXtreme Gradient Boosting and Multinomial Naive-Bayes.
 2. DL-based: Multi-Layer Perceptron, LSTM Classifier
 
-This project was carried as a course project for the course CS 698 - Computational Audio taught by [Prof. Richard Mann](https://cs.uwaterloo.ca/~mannr/) at the University of Waterloo. For a more detailed explanation, please check the [report](https://arxiv.org/abs/1904.06022).
+This project was carried by Haguy Idelchik & Avihay Peretz as a course project for the course Natural Language Processing taught by Dr. Nava Shaked & Mr. Yuri Yurchenko at the Holon Institue of Technology. For a more detailed explanation, please check the [report](https://arxiv.org/abs/1904.06022).
 
 ## Datasets
 The [IEMOCAP](https://link.springer.com/content/pdf/10.1007%2Fs10579-008-9076-6.pdf) dataset was used for all the experiments in this work. Please refer to the [report](https://arxiv.org/abs/1904.06022) for a detailed explanation of pre-processing steps applied to the dataset.
@@ -26,7 +26,7 @@ All the experiments have been tested using the following libraries:
 To avoid conflicts, it is recommended to setup a new python virtual environment to install these libraries. Once the env is setup, run `pip install -r requirements.txt` to install the dependencies.
 
 ## Instructions to run the code
-1. Clone this repository by running `git clone git@github.com:Demfier/multimodal-speech-emotion-recognition`.
+1. Clone this repository by running `git clone git@github.com:haguy77/multimodal-speech-emotion-recognition`.
 2. Go to the root directory of this project by running `cd multimodal-speech-emotion-recognition/` in your terminal.
 3. Start a jupyter notebook by running `jupyter notebook` from the root of this project.
 4. Run `1_extract_emotion_labels.ipynb` to extract labels from transriptions and compile other required data into a csv.
@@ -95,7 +95,7 @@ MDRE (4-class) | **75.3** | - | 71.8 | -
 E1 (4-class) | 70.3 | 67.5 | **73.2** | 65.5
 **E2** | 70.1 | **71.8** | 72.9 | **71.5**
 
-For more details, please refer to the [report](https://arxiv.org/abs/1904.06022)
+For more details, please refer to the [report](https://arxiv.org/abs/1904.06022), and to the [survey article](https://www.sciencedirect.com/science/article/pii/S0167639322000413/pdfft?md5=fe042a81eb4b13f10d5f48f13b03209b&pid=1-s2.0-S0167639322000413-main.pdf)
 
 ## Citation
 If you find this work useful, please cite:
@@ -106,5 +106,14 @@ If you find this work useful, please cite:
   author={Sahu, Gaurav},
   journal={arXiv preprint arXiv:1904.06022},
   year={2019}
+}
+```
+
+```
+@article{atmaja2022surveyonbimodal,
+  title={Survey on Bimodal Speech Emotion Recognition from Acoustic and Linguistic Information Fusion},
+  author={Atmaja, Bagus Tris, Akira Sasou, Masato Akagi},
+  journal={Speech Communication},
+  year={2022}
 }
 ```
