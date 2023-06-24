@@ -12,6 +12,7 @@ This project was carried by Haguy Idelchik & Avihay Peretz as a course project f
 
 ## Datasets
 The [IEMOCAP](https://link.springer.com/content/pdf/10.1007%2Fs10579-008-9076-6.pdf) dataset was used for all the experiments in this work. Please refer to the [report](https://arxiv.org/abs/1904.06022) for a detailed explanation of pre-processing steps applied to the dataset.
+For our project we downloaded the IEMOCAP full release dataset from [Kaggle](https://www.kaggle.com/datasets/dejolilandry/iemocapfullrelease).
 
 ## Requirements
 All the experiments have been tested using the following libraries:
