@@ -6,5 +6,5 @@
 *.wav
 data/*
 *.zip
-trained_models/*
+*trained_models/*
 lstm_classifier/t2e/embeddings/*
