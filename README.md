@@ -81,6 +81,7 @@ E1 (4-class) | 63.1 | 61.4 | **67.7** | 59.0
 DISTILROBERTA | 20 | 21.7 | 31.6 | 31.6
 
 E2: Ensemble (RF + XGB + MLP + MNB + LR)
+
 E1: Ensemble (RF + XGB + MLP)
 
 **Audio + Text**
@@ -101,6 +102,7 @@ E2 | 94.8 | 73.3 | 78.0 | 70.1
 **LF2** | **96.1** | **79.4** | 86.6 | **75.5**
 
 LF1: Late Fusion Approach 1 (Audio E1 + Text E2)
+
 LF2: Late Fusion Approach 2 (Audio RF + Text E2)
 
 For more details, please refer to the [report](https://arxiv.org/abs/1904.06022), and to the [survey article](https://www.sciencedirect.com/science/article/pii/S0167639322000413/pdfft?md5=fe042a81eb4b13f10d5f48f13b03209b&pid=1-s2.0-S0167639322000413-main.pdf)
