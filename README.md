@@ -91,12 +91,17 @@ RF | 94.6 | 68.0 | 72.7 | 66.7
 XGB | 91.5 | 57.7 | 72.0 | 52.6
 SVM | 90.0 | 67.9 | 72.9 | 64.2
 MNB | 88.6 | 62.4 | 74.5 | 57.0
-MLP | 95.0 | 73.0 | 74.2 | **72.0**
+MLP | 95.0 | 73.0 | 74.2 | 72.0
 LR | 89.2 | 64.9 | 75.1 | 59.2
 LSTM | 90.2 | 68.3 | 71.9 | 65.5
-MDRE (4-class) | **75.3** | - | 71.8 | -
+MDRE (4-class) | 75.3 | - | 71.8 | -
 E1 (4-class) | 70.3 | 67.5 | 73.2 | 65.5
-**E2** | **94.8** | **73.3** | **78.0** | 70.1
+E2 | 94.8 | 73.3 | 78.0 | 70.1
+**LF1** | 95.8 | 79.0 | **87.2** | 74.3
+**LF2** | **96.1** | **79.4** | 86.6 | **75.5**
+
+LF1: Late Fusion Approach 1 (Audio E1 + Text E2)
+LF2: Late Fusion Approach 2 (Audio RF + Text E2)
 
 For more details, please refer to the [report](https://arxiv.org/abs/1904.06022), and to the [survey article](https://www.sciencedirect.com/science/article/pii/S0167639322000413/pdfft?md5=fe042a81eb4b13f10d5f48f13b03209b&pid=1-s2.0-S0167639322000413-main.pdf)
 
