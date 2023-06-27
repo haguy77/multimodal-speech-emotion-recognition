@@ -12,7 +12,7 @@ This project was carried by Haguy Idelchik & Avihay Peretz as a course project f
 
 ## Datasets
 The [IEMOCAP](https://link.springer.com/content/pdf/10.1007%2Fs10579-008-9076-6.pdf) dataset was used for all the experiments in this work. Please refer to the [report](https://arxiv.org/abs/1904.06022) for a detailed explanation of pre-processing steps applied to the dataset.
-For our project we downloaded the IEMOCAP full release dataset from [Kaggle](https://www.kaggle.com/datasets/dejolilandry/iemocapfullrelease).
+For our project we acquired the IEMOCAP full release dataset from [Kaggle](https://www.kaggle.com/datasets/dejolilandry/iemocapfullrelease).
 
 ## Requirements
 All the experiments have been tested using the following libraries:
@@ -50,7 +50,7 @@ Accuracy, F-score, Precision and Recall has been reported for the different expe
 
 Models | Accuracy | F1 | Precision | Recall
 ---|---|---|---|---
-**RF** | **93.3** | **59.7** | 62.1 | **59.5**
+RF | **93.3** | 59.7 | 62.1 | 59.5
 XGB | 92.7 | 58.7 | 61.5 | 57.4
 SVM | 67.2 | 15.3 | 33.3 | 17.6
 MNB | 66.6 | 13.8 | 43.8 | 16.9
@@ -58,8 +58,9 @@ LR | 67.1 | 15.7 | 32.5 | 17.9
 MLP | 84.6 | 39.7 | 57.1 | 36.8
 LSTM | 66.4 | 13.3 | 11.1 | 16.7
 ARE (4-class) | 56.3 | - | 54.6 | -
-E1 (4-class) | 56.2 | 45.9 | **67.6** | 48.9
-E1 | 92.2 | 57.7 | **64.2** | 54.8
+E1 (4-class) | 56.2 | 45.9 | 67.6 | 48.9
+E1 | 92.2 | 57.7 | 64.2 | 54.8
+**WAV2VEC2** (4-class) | 73.8 | **74.4** | **76.4** | **81.1**
 
 E1: Ensemble (RF + XGB + MLP)
 
@@ -77,6 +78,7 @@ LSTM | 67.1 | 13.4 | 11.2 | 16.7
 TRE (4-class) | **65.5** | - | 63.5 | -
 E1 (4-class) | 63.1 | 61.4 | **67.7** | 59.0
 **E2** | **90.6** | **69.0** | **76.0** | 64.6
+DISTILROBERTA | 20 | 21.7 | 31.6 | 31.6
 
 E2: Ensemble (RF + XGB + MLP + MNB + LR)
 E1: Ensemble (RF + XGB + MLP)
